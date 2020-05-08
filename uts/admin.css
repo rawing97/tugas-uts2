@@ -1,0 +1,160 @@
+body{
+	font: 16px/28px arial,sans-serif;
+	background-color: #fff;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.sidebar{
+	position: fixed;
+	left:0;
+	width: 250px;
+	height: 100%;
+	background-color:#000066;
+	overflow: auto;
+}
+.sidebar h3{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	background-color: #063146;
+	padding: 20px;
+}
+.sidebar ul a{
+	display:block;
+	color: white;
+	height: 100%;
+	width: 100%;
+	line-height:40px;
+	font-size:15px;
+	padding-left:40px;
+	box-sizing: border-box;
+	border-top: 1px solid #00004d;
+	border-bottom: 1px solid #00004d;
+}	
+
+
+.sidebar .active a,ul li:hover a{
+	background-color:white;
+	margin-left: 25px;
+	color: #809fff;
+	width: 195px
+}
+.container{
+	width: 1100px;
+	display: block;
+	margin-left: 250px;
+	height: 100%;
+}
+nav{
+	box-shadow:0 0 1em #CCCCCC;
+	font-size: 25px;
+	height: 25px;
+	padding: 22px;
+	margin-bottom: 30px;
+	border-bottom: 2px solid #000066;
+}
+.box{
+	display: inline;
+	float: left;
+
+}
+.box :hover { 
+	background-color: grey;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.box1{
+	
+	width: 250px;
+	height: 100px;
+	border-radius: 20px;
+	margin-left: 50px;
+	padding-top: 10px;
+	text-align: center;
+
+	
+}
+.box1 h1{
+	padding: 5px 0px;
+}
+.box1 img{
+	width:60px
+}
+ 	
+
+.card{
+	border: 2px solid #eee; 
+	width: 300px;
+	margin-left: 40px; 
+	float: left;
+	padding: 5px;
+}
+
+.card h3{
+	background-color:  background: #E44D26;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.jumlah{
+	margin-bottom: 10px;
+	padding: 10px;
+	width: 180px;
+	height: 30px;
+	margin-left: 80px;
+	color: white;
+	text-align: center;
+	border-radius: 0px  0px 20px 20px;
+
+}
+
+.marquee{
+font-size: 50px;
+padding: 25px;
+background-color: red;
+margin-top: -10px;
+}
+
+table{
+font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 98%;
+  margin-left: 6px
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.search-container {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
